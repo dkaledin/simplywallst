@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getResultByCurrentStep should return expected response for every receive command 1`] = `
+Array [
+  Object {
+    "message": Array [
+      "Welcome to the CV terminal command!",
+    ],
+    "next": Object {
+      "prompt": "job_title: (Front-end Developer)",
+      "step": 1,
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "given_name:",
+      "step": 2,
+    },
+    "result": Object {
+      "job_title": "Front-end Developer",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "family_name:",
+      "step": 3,
+    },
+    "result": Object {
+      "given_name": "Warren",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "email:",
+      "step": 4,
+    },
+    "result": Object {
+      "family_name": "Buffett",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "mobile:",
+      "step": 5,
+    },
+    "result": Object {
+      "email": "tupaclives1985@gmail.com",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "portfolio_url:",
+      "step": 6,
+    },
+    "result": Object {
+      "mobile": "04 0404 4044",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "bio:",
+      "step": 7,
+    },
+    "result": Object {
+      "portfolio_url": "https://warrenbuffett.id.au",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "skills:",
+      "step": 8,
+    },
+    "result": Object {
+      "bio": "Hi I like building cool things...",
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "years:",
+      "step": 9,
+    },
+    "result": Object {
+      "skills": Object {
+        "php": Object {},
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "confidence_rating:",
+      "step": 10,
+    },
+    "result": Object {
+      "skills": Object {
+        "php": Object {
+          "years": 2,
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "technology:",
+      "step": 11,
+    },
+    "result": Object {
+      "skills": Object {
+        "php": Object {
+          "confidence_rating": 50,
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "Do You have any more skills? (yes)",
+      "step": 12,
+    },
+    "result": Object {
+      "skills": Object {
+        "php": Object {
+          "technology": Array [
+            "symfony",
+            "laravel",
+          ],
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "skills:",
+      "step": 8,
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "years:",
+      "step": 9,
+    },
+    "result": Object {
+      "skills": Object {
+        "js": Object {},
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "confidence_rating:",
+      "step": 10,
+    },
+    "result": Object {
+      "skills": Object {
+        "js": Object {
+          "years": 3,
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "technology:",
+      "step": 11,
+    },
+    "result": Object {
+      "skills": Object {
+        "js": Object {
+          "confidence_rating": 99,
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "Do You have any more skills? (yes)",
+      "step": 12,
+    },
+    "result": Object {
+      "skills": Object {
+        "js": Object {
+          "technology": Array [
+            "typescript",
+            "react",
+            "redux",
+            "node",
+          ],
+        },
+      },
+    },
+  },
+  Object {
+    "message": Array [
+      "Great!",
+    ],
+    "next": Object {
+      "prompt": "previous_jobs:",
+      "step": 13,
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "job_title:",
+      "step": 14,
+    },
+    "result": Object {
+      "previous_jobs": Object {
+        "acme corp": Object {},
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "years:",
+      "step": 15,
+    },
+    "result": Object {
+      "previous_jobs": Object {
+        "acme corp": Object {
+          "job_title": "Front-end developer",
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "Do You have any more previous jobs? (yes)",
+      "step": 16,
+    },
+    "result": Object {
+      "previous_jobs": Object {
+        "acme corp": Object {
+          "years": 2,
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "previous_jobs:",
+      "step": 13,
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "job_title:",
+      "step": 14,
+    },
+    "result": Object {
+      "previous_jobs": Object {
+        "example studios": Object {},
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "years:",
+      "step": 15,
+    },
+    "result": Object {
+      "previous_jobs": Object {
+        "example studios": Object {
+          "job_title": "Junior developer",
+        },
+      },
+    },
+  },
+  Object {
+    "next": Object {
+      "prompt": "Do You have any more previous jobs? (yes)",
+      "step": 16,
+    },
+    "result": Object {
+      "previous_jobs": Object {
+        "example studios": Object {
+          "years": 1,
+        },
+      },
+    },
+  },
+  Object {
+    "message": Array [
+      "Json is ready to send!",
+      "Please check it.",
+    ],
+    "next": Object {
+      "prompt": "Is this Ok? (yes)",
+      "step": 17,
+    },
+  },
+]
+`;

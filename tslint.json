@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "tslint:latest"
+  ],
+  "rules": {
+    "ordered-imports": false,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "object-literal-sort-keys": false,
+    "arrow-parens": false,
+    "no-implicit-dependencies": false,
+    "no-empty-interface": false,
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "max-classes-per-file": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
