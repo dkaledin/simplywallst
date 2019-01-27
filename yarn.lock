@@ -5019,8 +5019,9 @@ react-dom@16.7.0:
     prop-types "^15.6.2"
     scheduler "^0.12.0"
 
-react-simply-terminal-emulator@../react-simply-terminal-emulator:
+"react-simply-terminal-emulator@https://github.com/dkaledin/react-simply-terminal-emulator":
   version "1.0.0"
+  resolved "https://github.com/dkaledin/react-simply-terminal-emulator#af27892fbb773fed6eaba5c08dda44cde946b1df"
   dependencies:
     react "16.7.0"
     react-dom "16.7.0"

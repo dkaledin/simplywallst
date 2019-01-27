@@ -5,7 +5,7 @@
     "lodash.merge": "4.6.1",
     "react": "16.7.0",
     "react-dom": "16.7.0",
-    "react-simply-terminal-emulator": "../react-simply-terminal-emulator"
+    "react-simply-terminal-emulator": "https://github.com/dkaledin/react-simply-terminal-emulator"
   },
   "scripts": {
     "start": "webpack-dev-server --progress --config webpack.dev.js",
